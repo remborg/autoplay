@@ -1,0 +1,19 @@
+.ap-setSettingsDialog {
+    overflow: hidden;
+}
+
+.ap-setSettingsDialog-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ap-setSettingsDialog-form label {
+    padding: 6px 0;
+    display: flex;
+    align-items: center;
+}
+
+.ap-setSettingsDialog-form input,
+.ap-setSettingsDialog-form label {
+    cursor: pointer;
+}

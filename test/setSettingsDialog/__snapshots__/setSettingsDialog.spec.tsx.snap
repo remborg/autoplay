@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SetSettingDialog should show popup content 1`] = `
+<div
+  className="ap-setSettingsDialog-form"
+>
+  <label>
+    <input
+      defaultChecked={true}
+      onChange={[Function]}
+      type="checkbox"
+    />
+    Run all cells
+  </label>
+  <label>
+    <input
+      defaultChecked={true}
+      onChange={[Function]}
+      type="checkbox"
+    />
+    Hide all code cells
+  </label>
+</div>
+`;
