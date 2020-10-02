@@ -1,4 +1,4 @@
-# Autoplay
+# jupyterlab-autoplay
 
 A Jupyter Lab extension to automatically run and/or hide cells when opening a notebook.
 
@@ -11,7 +11,7 @@ A Jupyter Lab extension to automatically run and/or hide cells when opening a no
 ## Install
 
 ```bash
-jupyter labextension install autoplay
+jupyter labextension install jupyterlab-autoplay
 ```
 
 ## How to use
@@ -81,5 +81,5 @@ Now every change will be built locally and bundled into JupyterLab. Be sure to r
 ### Uninstall
 
 ```bash
-jupyter labextension uninstall autoplay
+jupyter labextension uninstall jupyterlab-autoplay
 ```

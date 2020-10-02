@@ -1,5 +1,5 @@
 {
-  "name": "autoplay",
+  "name": "jupyterlab-autoplay",
   "version": "1.0.0",
   "description": "Automatically run and/or hide cells when opening a Jupyter notebook",
   "keywords": [
