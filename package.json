@@ -7,7 +7,7 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/remborg/autoplay",
+  "homepage": "https://borgniet.com/index.php/2020/10/02/how-to-run-all-the-cells-of-a-jupyter-lab-notebook-when-opening-it/",
   "bugs": {
     "url": "https://github.com/remborg/autoplay/issues"
   },
@@ -22,7 +22,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/remborg/myextension.git"
+    "url": "https://github.com/remborg/autoplay"
   },
   "scripts": {
     "build": "tsc",
