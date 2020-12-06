@@ -3,7 +3,7 @@ import { Widget } from '@lumino/widgets';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { getMetadata } from '../notebookActions';
-import { AutoplayMetadata } from '../types.model';
+import { AutoplayMetadata, DEFAULT_AUTOPLAY_METADATA } from '../types.model';
 
 /**
  * A widget used to display the options so the user can setup the notebook
@@ -15,8 +15,7 @@ export class SetSettingsDialog extends Widget {
         const wrapper = document.createElement('div');
         wrapper.className = "ap-setSettingsDialog";
         super({ node: wrapper });
-
-        this.metadata = getMetadata(notebook);
+        this.metadata = getMetadata(notebook) || DEFAULT_AUTOPLAY_METADATA;
 
         const content = SetSettingsContent({ metadata: this.metadata });
         ReactDOM.render(content, wrapper);

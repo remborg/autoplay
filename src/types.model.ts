@@ -6,6 +6,11 @@ export type AutoplayMetadata = {
     hideCodeCells: boolean
 }
 
+export const DEFAULT_AUTOPLAY_METADATA: AutoplayMetadata = {
+    autoRun: false,
+    hideCodeCells: false
+}
+
 export type AutoplayCommand = {
     label: string,
     command: string,
