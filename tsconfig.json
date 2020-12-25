@@ -5,7 +5,6 @@
     "declaration": true,
     "esModuleInterop": true,
     "incremental": true,
-    "removeComments": true,
     "jsx": "react",
     "module": "esnext",
     "moduleResolution": "node",
@@ -25,9 +24,4 @@
     "src/*",
     "src/**/*"
   ],
-  "exclude": [
-    "node_modules",
-    "lib",
-    "**/*.spec.ts"
-  ]
 }
